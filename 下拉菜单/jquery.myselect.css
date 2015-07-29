@@ -1,0 +1,37 @@
+.ui-select-container{
+	width: 200px;
+	height: 32px;
+}
+.ui-select-btn{
+	width: 100%;
+	border: 1px solid transparent;
+  	border-radius: 0;
+  	outline: 0;
+  	cursor: pointer;
+  	text-align: left;
+}
+.ui-select-icon-down{
+	float: right;
+}
+.ui-select-status{
+	display: block;
+	float: left;
+}
+.ui-select-list{
+	margin: 0;
+  	padding: 0;
+  	list-style: none;
+  	background-color: #fff;
+  	border: 1px solid #ddd;
+  	display: none;
+}
+.ui-select-list li{
+	height: 25px;
+	cursor: pointer;
+}
+.ui-select-list li:hover{
+	background: #eee;
+}
+.ui-select-text{
+	display: block;
+}

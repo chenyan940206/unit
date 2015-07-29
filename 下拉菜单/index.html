@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="jquery.myselect.css">
+</head>
+<body>
+
+	<!-- <div class="ui-select-container">
+		<button class="ui-select-btn">
+			<span class="ui-select-status">
+				所有类型
+				<i class=btn"ui-select-icon-down">+</i>
+			</span>
+		</button>
+		<ul class="ui-select-list">
+			<li>
+				<span class="ui-select-text">所有类型</span>
+				<i class="ui-select-icon-check"></i>
+			</li>
+			<li>
+				<span class="ui-select-text">心情</span>
+			</li>
+			<li>
+				<span class="ui-select-text">旅游</span>
+			</li>
+		</ul>
+	</div> -->
+
+	<select id="myselect" name="xxx">
+		<option value="-1">所有类型</option>
+		<option value="1">心情</option>
+		<option value="2">旅游</option>
+	</select>
+
+	<script src="jquery.min.js"></script>
+	<script src='jquery.myselect.js'></script>
+	<script>
+
+
+		$('#myselect').myselect().on('change', function(){
+			location.href = 'admin/article/get_category_articles/'+this.value;
+		});
+
+
+
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>
